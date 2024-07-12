@@ -32,3 +32,63 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.container {
+  width: min(24rem, 90%);
+  height: min(33.5rem, 90%);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--neutral-black);
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem var(--neutral-black);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.card-media img {
+  border-radius: 0.62rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.card-footer p {
+  margin-left: 0.5rem;
+}
+
+.card-footer img {
+  width: 32px;
+  height: 32px;
+}
+
+.badge {
+  width: min(5.1rem, 90%);
+  height: min(1.75rem, 90%);
+  background-color: var(--primary-color);
+  color: var(--neutral-black);
+  width: fit-content;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  font-weight: 700;
+}
