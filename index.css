@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Figtree";
+  src: local("Figtree"),
+    url("assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
 *,
 *:before,
 *:after {
@@ -13,7 +19,7 @@
 
 html {
   background-color: var(--primary-color);
-  font-family: ;
+  font-family: "Figtree", sans-serif, system-ui;
 }
 
 body {
